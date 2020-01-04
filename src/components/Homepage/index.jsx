@@ -4,7 +4,7 @@ import "./style-header.css";
 import "./style-mission.css";
 import "./style-mission2.css";
 import "./style-mission2.css";
-import bar1 from "../Homepage/IMG/bar.jpg";
+import bar1 from "../Homepage/IMG/bar1.jpg";
 import bar2 from "../Homepage/IMG/bar2.jpg";
 import bar3 from "../Homepage/IMG/bar3.jpg";
 import bar from "../Homepage/IMG/bar.jpg";
@@ -126,7 +126,7 @@ function Homepage() {
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             {/* <img class="activator" src="images/office.jpg"></img> */}
-            <img class="activator" width={200} height={200} src={bar}></img>
+            <img class="activator" width={200} height={200} src={bar1}></img>
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">
