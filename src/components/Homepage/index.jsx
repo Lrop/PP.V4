@@ -1,6 +1,13 @@
 import React from "react";
 import "./style-homepage.css";
-import bar from "./bar.jpg";
+import "./style-header.css";
+import "./style-mission.css";
+import "./style-mission2.css";
+import "./style-mission2.css";
+import bar from "../Homepage/bar1.jpg";
+import bar2 from "../Homepage/bar2.jpg";
+import bar3 from "../Homepage/bar3.jpg";
+// import bar from "./bar.jpg";
 
 import mission1 from "../Homepage/mission1.png";
 import mission2 from "../Homepage/mission2.png";
@@ -108,6 +115,123 @@ function Homepage() {
               accusamus fugiat accusantium dolorem. Cupiditate tempora ducimus
               in non, odit voluptatibus, possimus illum veniam laudantium eum et
               voluptates architecto quia pariatur?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="paragraph-heading">
+        <p className="p-1">~ ~ Check out our Featured Pubs! ~ ~</p>
+      </div>
+      <div className="wrapper3">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            {/* <img class="activator" src="images/office.jpg"></img> */}
+            <img class="activator" width={200} height={200} src={bar}></img>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+              {/* Card Title<i class="material-icons right">more_vert</i> */}
+            </span>
+            <p>
+              <a className="a1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                deserunt impedit eius aspernatur inventore, recusandae ducimus
+                quas nobis perspiciatis praesentium officiis sed minima
+                repellat, suscipit similique nihil ipsum. Odit, ad.
+              </a>
+              <br />
+              <hr />
+              <a href="#" className="linktag">
+                This is a link
+              </a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              Card Title<i class="exit right">X</i>
+            </span>
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"></span>
+            <p>
+              <a href="#" className="linktag">
+                This is a link
+              </a>
+            </p>
+          </div>
+          <hr />
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+              {/* Card Title<i class="material-icons right">more_vert</i> */}
+            </span>
+            <p>
+              <a href="#" className="a1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam a
+                minima neque odit dolorem, distinctio eligendi cum, nulla animi
+              </a>
+            </p>
+          </div>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" width={200} height={200} src={bar3}></img>
+          </div>
+          {/* <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+              Card Title<i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="#">This is a link</a>
+            </p>
+          </div> */}
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              Card Title<i class="exit right">Close</i>
+            </span>
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            {/* <img class="activator" src="images/office.jpg"></img> */}
+            <img class="activator" width={200} height={200} src={bar2}></img>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+              {/* Card Title<i class="material-icons right">more_vert</i> */}
+            </span>
+            <p>
+              {/* <a href="#">This is a link</a> */}
+              <a className="a1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                deserunt impedit eius aspernatur inventore, recusandae ducimus
+                quas nobis perspiciatis praesentium officiis sed minima
+                repellat, suscipit similique nihil ipsum. Odit, ad.
+              </a>
+              <br />
+              <hr />
+              {/* <Link to="http://google.com"> Contact us </Link>
+              <a href={"http://google.com"}>Google</a> */}
+              <a href="https://www.google.com" className="linktag">
+                This is a link
+              </a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              Card Title<i class="material-icons right">close</i>
+            </span>
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
             </p>
           </div>
         </div>
