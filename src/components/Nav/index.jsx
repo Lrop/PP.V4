@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./style-nav.css";
-// import logo2 from "./logo2.png";
+import logo2 from "./logo2.png";
 // import Modal from "../Modal";
 
 class NavBar extends React.Component {
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
                 }
               >
                 {/* <img src={logo2}></img> */}
-                {/* <img alt="" width={100} height={100} src={logo2}></img> */}
+                <img alt="" width={100} height={100} src={logo2}></img>
                 {/* Perfect Pub */}
               </a>
             </li>
