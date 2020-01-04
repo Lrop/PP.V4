@@ -4,14 +4,14 @@ import "./style-header.css";
 import "./style-mission.css";
 import "./style-mission2.css";
 import "./style-mission2.css";
-import bar from "../Homepage/bar1.jpg";
-import bar2 from "../Homepage/bar2.jpg";
-import bar3 from "../Homepage/bar3.jpg";
-// import bar from "./bar.jpg";
+import bar1 from "../Homepage/IMG/bar.jpg";
+import bar2 from "../Homepage/IMG/bar2.jpg";
+import bar3 from "../Homepage/IMG/bar3.jpg";
+import bar from "../Homepage/IMG/bar.jpg";
 
-import mission1 from "../Homepage/mission1.png";
-import mission2 from "../Homepage/mission2.png";
-import mission3 from "../Homepage/mission3.png";
+import mission1 from "../Homepage/IMG/mission1.png";
+import mission2 from "../Homepage/IMG/mission2.png";
+import mission3 from "../Homepage/IMG/mission3.png";
 
 function Homepage() {
   return (
